@@ -2,30 +2,109 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>4u – Response Layer</title>
+<title>PAIRING‑ROLE · INDEX</title>
 
 <style>
-body{background:#000;color:#0f0;font-family:monospace;padding:20px;}
-pre{background:#111;padding:20px;border:1px solid #333;}
-button{background:#111;color:#0f0;border:1px solid #333;padding:8px 16px;}
+body { background:#000; color:#0f0; font-family:Consolas, monospace; padding:20px; }
+h1, h2 { color:#6cf; }
+pre { background:#111; padding:14px; border:1px solid #333; }
+a { color:#6cf; display:block; margin:6px 0; font-size:18px; }
+hr { border:1px solid #333; margin:25px 0; }
 </style>
 </head>
 
 <body>
 
-<h1>4u – Response Layer</h1>
+<h1>PAIRING‑ROLE · Rollen‑Index</h1>
+<p>Rollen‑Achse des iki1uc‑Systems · Response Layer 7.2</p>
 
-<button onclick="show()">RESPO</button>
+<hr>
 
-<pre id="out">Bereit...</pre>
+<h2>Rollen‑Szene</h2>
+<pre>
+        ◈  (Diamant‑Rolle)
+       / | \
+     ◉  ◎  ↺
+   Punkt Achse Zyklus
 
-<script type="module">
-import { respo } from "./respo.js";
+       △  ▣  ◆
+     Form Raum Schlag
 
-function show(){
-  out.textContent = JSON.stringify(respo, null, 2);
-}
-</script>
+PAIRING‑ROLE verbindet:
+ATOM · HYPNOSE · MANA · DIAMANT · FLOW · ESEE · synth · ID
+mit den 4u‑Reaktionsrollen.
+</pre>
+
+<hr>
+
+<h2>4u‑ROLE‑SYSTEM</h2>
+<pre>
+OK     → Zustimmung / Grün
+NOK    → Ablehnung / Rot
+FLOW   → Weiter / Bewegung
+BREAK  → Abbruch / Stop
+ECHO   → Spiegelung / Rückwurf
+VOID   → Neutral / Leere
+ROOT   → Rückkehr / Reset
+
+PAIRING‑ROLE ordnet diese 7 Reaktions‑Typen.
+</pre>
+
+<hr>
+
+<h2>ROLE‑MATRIX</h2>
+<pre>
+ATOM      → Struktur‑Rolle        (◈ ▣ ↺ △)
+HYPNOSE   → Diagnose‑Rolle        (DA NE BEN KI)
+MANA      → Licht‑Rolle           (◉ ◎ △ ▣ ↺ ◆)
+DIAMANT   → Kern‑Rolle            (◈)
+FLOW      → Bewegungs‑Rolle       (↺)
+ESEE      → Echo‑Rolle            (△)
+synth     → Synthese‑Rolle        (—)
+ID        → Identitäts‑Rolle      (◉ ◎ ◈)
+</pre>
+
+<hr>
+
+<h2>ROLE‑PIPELINE</h2>
+<pre>
+ATOM → HYPNOSE → MANA → DIAMANT → FLOW → ESEE → synth → ID → ATOM
+
+Rollen‑Flow:
+Struktur → Diagnose → Licht → Wahrheit → Bewegung → Echo → Fusion → Identität → Struktur
+</pre>
+
+<hr>
+
+<h2>ROLE‑IDENTITY</h2>
+<pre>
+◉ Punkt      → Ursprung
+◎ Achse      → Richtung
+◈ Diamant    → Signatur / Wahrheit
+
+ROLE‑ID = ◉ + ◎ + ◈
+</pre>
+
+<hr>
+
+<h2>PAIRING‑ROLE Dateien</h2>
+<a href="./index.html">index.html</a>
+<a href="./ID.html">ID.html</a>
+<a href="./README.md">README.md</a>
+
+<hr>
+
+<h2>Status</h2>
+<p>PAIRING‑ROLE ist kompatibel mit:</p>
+<ul>
+<li>4u (Response Layer 7)</li>
+<li>PAIRING‑SYNC</li>
+<li>PAIRING‑MAP</li>
+<li>ATOM / HYPNOSE / MANA / DIAMANT</li>
+<li>FLOW / ESEE / synth / ID</li>
+<li>Pipeline‑Technik</li>
+<li>iki1uc‑Systemarchitektur</li>
+</ul>
 
 </body>
 </html>
