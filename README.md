@@ -1,30 +1,19 @@
-# 4u – Response Layer 7 (iki1uc)
+# PAIRING‑ROLE · Role Layer 7.2  
+**iki1uc — Rollen‑Achse des Response‑Systems**
 
-4u ist die 7. Response-Ebene im iki1uc-System.
-Sie ersetzt die alte RESPO-Achse durch ein neues, systemisches Modell:
+PAIRING‑ROLE definiert die **Rollen**, die im iki1uc‑System wirken:
 
-OK / NOK / FLOW / BREAK / ECHO / VOID / ROOT
+- Reaktions‑Rollen (4u)
+- System‑Rollen (ATOM / HYPNOSE / MANA / DIAMANT)
+- Bewegungs‑Rollen (FLOW)
+- Echo‑Rollen (ESEE)
+- Synthese‑Rollen (synth)
+- Identitäts‑Rollen (ID)
 
-4u verbindet:
-- PX-TRIO (PX3 / PX6 / PX9)
-- PX12 / PX4 (Fusion + Achse)
-- SYS / SYS-x (System + Kreuzung)
-- 2me (Mirror-Return)
-- TEM (Zeit)
-- UI-SCANNER (Interface)
+PAIRING‑ROLE ist die **Rollen‑Achse** zwischen PAIRING‑SYNC (Layer 7)  
+und PAIRING‑MAP (Layer 8).
 
------------------------------------------
-# FUNKTION
+---
 
-respo.OK     → Zustimmung  
-respo.NOK    → Ablehnung  
-respo.FLOW   → System fließt  
-respo.BREAK  → System bricht  
-respo.ECHO   → Spiegelung  
-respo.VOID   → Neutral  
-respo.ROOT   → Rückkehr
+## 1. 4u‑ROLE‑SYSTEM
 
------------------------------------------
-# STATUS
-
-4u ist aktiv, eigenständig und vollständig iki1uc.
